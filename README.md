@@ -18,11 +18,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 No prerequisites are needed. The calculator runs in any modern web browser.
 
-### Installation
+## Installation
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/kesjam/calculator.git
+After cloning the repository or downloading the project to your computer, follow these steps to run the calculator app:
+
+1. Navigate to the project directory where you've saved the files.
+2. Locate the `index.html` file. This is the entry point to the calculator app.
+3. Right-click on the `index.html` file and choose `Open with` from the context menu.
+4. Select your preferred web browser from the list of applications. The calculator app will then open in a new browser tab.
+
+Alternatively, you can simply double-click on the `index.html` file, and it should automatically open in your default web browser.
 
 ## Usage
 
