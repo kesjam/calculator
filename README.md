@@ -57,7 +57,7 @@ Contributions make the open source community an amazing place to learn, inspire,
 
 ## Project Link
 
-[https://github.com/kesjam/calculator-app](https://github.com/kesjam/calculator-app)
+Check out the project repository on GitHub: [Calculator App Repository](https://github.com/kesjam/calculator/)
 
 ## Acknowledgments
 
