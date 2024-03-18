@@ -22,4 +22,40 @@ No prerequisites are needed. The calculator runs in any modern web browser.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/kesjam/calculator-app.git
+   git clone https://github.com/kesjam/calculator.git
+
+## Usage
+
+To use the calculator for simple arithmetic operations:
+
+- **Basic Operations**: Click on the numeric buttons to input numbers, and use the arithmetic operation buttons (`+`, `-`, `x`, `/`) to perform calculations.
+- **Performing Calculations**: After entering your numbers and selecting an operation, click the `=` button to see the result.
+- **Using Memory Functions**:
+  - `M+`: Adds the displayed number to the memory.
+  - `M-`: Subtracts the displayed number from the memory.
+  - `MR`: Recalls the number stored in memory to the display.
+  - `MC`: Clears the memory.
+- **Viewing History**: Click on the `History` button to view past calculations. Use the `Clear` button within the history panel to clear past entries.
+- **Clearing the Display**: Use the `AC` button to clear the current input and result.
+
+The calculator is designed to be intuitive. If you're familiar with basic calculator operations, you'll find this digital version to be straightforward and easy to use.
+
+## Contributing
+
+Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **highly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/YourAmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some YourAmazingFeature'`)
+4. Push to the Branch (`git push origin feature/YourAmazingFeature`)
+5. Open a Pull Request
+
+## Project Link
+
+[https://github.com/kesjam/calculator-app](https://github.com/kesjam/calculator-app)
+
+## Acknowledgments
+
+- [GitHub Pages](https://pages.github.com)
+- [Font Awesome](https://fontawesome.com)
+- [Normalize.css](https://necolas.github.io/normalize.css/)
