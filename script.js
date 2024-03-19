@@ -235,3 +235,68 @@ clearHistoryButton.addEventListener('click', () => {
 
 // Update the initial memory display value
 updateMemoryDisplay();
+
+// Keyboard support
+document.addEventListener('keydown', function(event) {
+  // Prevent default behavior for keys that might cause the page to scroll or perform other actions
+  if (['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '-', '*', '/', '=', '.', 'Enter', 'Escape'].includes(event.key)) {
+    event.preventDefault();
+  }
+
+  let key = event.key;
+  switch (key) {
+    case '0':
+      handleButtonClick('0');
+      break;
+    case '1':
+      handleButtonClick('1');
+      break;
+    case '2':
+      handleButtonClick('2');
+      break;
+    case '3':
+      handleButtonClick('3');
+      break;
+    case '4':
+      handleButtonClick('4');
+      break;
+    case '5':
+      handleButtonClick('5');
+      break;
+    case '6':
+      handleButtonClick('6');
+      break;
+    case '7':
+      handleButtonClick('7');
+      break;
+    case '8':
+      handleButtonClick('8');
+      break;
+    case '9':
+      handleButtonClick('9');
+      break;
+    case '+':
+      handleButtonClick('+');
+      break;
+    case '-':
+      handleButtonClick('-');
+      break;
+    case '*':
+      handleButtonClick('x');
+      break;
+    case '/':
+      handleButtonClick('/');
+      break;
+    case '=':
+    case 'Enter': // Assume 'Enter' key behaves the same as '='
+      handleButtonClick('=');
+      break;
+    case '.':
+      handleButtonClick('.');
+      break;
+    case 'Escape': // Assume 'Escape' key clears the calculator
+      handleButtonClick('AC');
+      break;
+    // Add any additional key mappings here
+  }
+});
